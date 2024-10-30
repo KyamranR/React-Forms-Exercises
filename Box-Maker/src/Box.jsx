@@ -1,5 +1,3 @@
-import React from "react";
-
 const Box = ({ id, width, height, backgroundColor, removeBox }) => {
   const handleRemove = () => removeBox(id);
 

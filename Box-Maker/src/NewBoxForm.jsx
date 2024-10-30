@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const NewBoxForm = ({ addBox }) => {
   const INITIAL_STATE = { width: "", height: "", backgroundColor: "#000000" };
